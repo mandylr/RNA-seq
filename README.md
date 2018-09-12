@@ -3,7 +3,7 @@
 
 ## General pipeline
 
-![figure](https://github.com/mandylr/RNA-seq/docs/pipeline.png)
+![figure](docs/pipeline.png)
 
 As you move down the pipeline, the files size and computing power decreses.
 
