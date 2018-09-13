@@ -55,7 +55,7 @@ Count the number of reads that align to each gene to measure gene expression.
 
 Alignment method | Count tool
 --- | ---
-Bowtie, BWA, TopHat | Bedtools or htseq
+Bowtie, BWA, TopHat | [Bedtools](https://bedtools.readthedocs.io/en/latest/) or [htseq](https://htseq.readthedocs.io/en/release_0.10.0/)
 STAR, kalliso, salmon | [Subread (package)](http://subread.sourceforge.net/) [featureCounts (function)](http://bioinf.wehi.edu.au/featureCounts/)
 
 Also, the outputs from STAR, kallisto, and salmon aligners can go directly into edgeR for differential expression analysis. Kallisto and salmon outputs can go directly into sleuth for differential expression.
